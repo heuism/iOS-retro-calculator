@@ -73,7 +73,7 @@
                                                 </constraints>
                                                 <state key="normal" image="7"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NLe-rz-IMR"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y66-gG-wmn"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MaK-TK-cG4" userLabel="Button8">
@@ -84,7 +84,7 @@
                                                 </constraints>
                                                 <state key="normal" image="8"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BSN-R9-U1L"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V5O-vV-U8m"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCb-ae-LzE" userLabel="Button9">
@@ -95,7 +95,7 @@
                                                 </constraints>
                                                 <state key="normal" image="9"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KmN-ap-1so"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XaY-s1-awB"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -111,7 +111,7 @@
                                                 </constraints>
                                                 <state key="normal" image="4"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ts-RA-gcJ"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z0J-Kn-QO1"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf2-Pv-dy6" userLabel="Button5">
@@ -122,7 +122,7 @@
                                                 </constraints>
                                                 <state key="normal" image="5"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1GP-nn-iHl"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZEh-A6-Uwm"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ci0-ye-ji8" userLabel="Button6">
@@ -133,7 +133,7 @@
                                                 </constraints>
                                                 <state key="normal" image="6"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qwn-Yc-muk"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3NG-m8-H6x"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -149,7 +149,7 @@
                                                 </constraints>
                                                 <state key="normal" image="1"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CsT-yQ-nQE"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b2D-s0-zCy"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGL-oA-Re0" userLabel="Button2">
@@ -160,7 +160,7 @@
                                                 </constraints>
                                                 <state key="normal" image="2"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dwd-dh-wyK"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4i8-g3-rjC"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhb-NO-cxE" userLabel="Button3">
@@ -171,7 +171,7 @@
                                                 </constraints>
                                                 <state key="normal" image="3"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J0K-OC-xrQ"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXm-mH-8az"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -187,7 +187,7 @@
                                                 </constraints>
                                                 <state key="normal" image="0"/>
                                                 <connections>
-                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Wi-Bp-G3U"/>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Us6-AI-XET"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmX-it-5zF" userLabel="ButtonDivide">
@@ -198,7 +198,7 @@
                                                 </constraints>
                                                 <state key="normal" image="divide"/>
                                                 <connections>
-                                                    <action selector="onDividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="53y-Wo-fK3"/>
+                                                    <action selector="onDividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZr-eq-chS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLl-6m-KrS" userLabel="ButtonMultiply">
@@ -209,7 +209,7 @@
                                                 </constraints>
                                                 <state key="normal" image="multiply"/>
                                                 <connections>
-                                                    <action selector="onMultiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iMg-9A-ZOH"/>
+                                                    <action selector="onMultiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MU2-66-6nf"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -225,7 +225,7 @@
                                                 </constraints>
                                                 <state key="normal" image="subtract"/>
                                                 <connections>
-                                                    <action selector="onSubtractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ouX-aT-gKf"/>
+                                                    <action selector="onSubtractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="up7-jT-dHh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rav-BF-lw9" userLabel="ButtonAdd">
@@ -236,7 +236,7 @@
                                                 </constraints>
                                                 <state key="normal" image="add"/>
                                                 <connections>
-                                                    <action selector="onAddPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tsu-Jb-jSD"/>
+                                                    <action selector="onAddPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0I8-1V-SzK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQN-hq-wy4" userLabel="ButtonEqual">
@@ -247,7 +247,7 @@
                                                 </constraints>
                                                 <state key="normal" image="equal"/>
                                                 <connections>
-                                                    <action selector="onEqualPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S2a-42-9SI"/>
+                                                    <action selector="onEqualPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x43-0M-O6O"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -264,16 +264,29 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="weH-fa-TmZ">
+                                <rect key="frame" x="162" y="87" width="66" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="weH-fa-TmZ" secondAttribute="height" multiplier="292:100" id="2Or-2L-tAC"/>
+                                    <constraint firstAttribute="width" constant="55" id="J9j-TV-B3w"/>
+                                </constraints>
+                                <state key="normal" image="clear"/>
+                                <connections>
+                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eg5-dj-H4f"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UPc-aP-WJn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5jX-8S-Vjg"/>
+                            <constraint firstItem="weH-fa-TmZ" firstAttribute="top" secondItem="H37-Rf-Xoy" secondAttribute="top" constant="50" id="5x3-OV-4N8"/>
                             <constraint firstItem="7pn-ql-Z6q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ApD-Xt-bgd"/>
                             <constraint firstAttribute="trailing" secondItem="UPc-aP-WJn" secondAttribute="trailing" id="D1u-dz-VJj"/>
                             <constraint firstItem="H37-Rf-Xoy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Epu-ZD-JNf"/>
                             <constraint firstItem="a26-LW-CGc" firstAttribute="centerX" secondItem="H37-Rf-Xoy" secondAttribute="centerX" id="IPq-mL-tw6"/>
                             <constraint firstItem="Wza-rD-gm2" firstAttribute="top" secondItem="H37-Rf-Xoy" secondAttribute="top" constant="25" id="QpQ-V3-reX"/>
                             <constraint firstItem="7pn-ql-Z6q" firstAttribute="top" secondItem="a26-LW-CGc" secondAttribute="bottom" constant="8" id="RfG-Vu-QAp"/>
+                            <constraint firstItem="weH-fa-TmZ" firstAttribute="leading" secondItem="H37-Rf-Xoy" secondAttribute="leading" constant="8" id="Xqx-Vp-5yS"/>
                             <constraint firstItem="UPc-aP-WJn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cWC-gA-EKg"/>
                             <constraint firstItem="H37-Rf-Xoy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eir-sw-xqH"/>
                             <constraint firstItem="a26-LW-CGc" firstAttribute="centerY" secondItem="H37-Rf-Xoy" secondAttribute="centerY" constant="38" id="olb-Vv-oqK"/>
@@ -283,7 +296,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="displayLbl" destination="Wza-rD-gm2" id="p19-oB-4JL"/>
+                        <outlet property="displayLbl" destination="Wza-rD-gm2" id="V92-Z2-tpq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -304,6 +317,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>

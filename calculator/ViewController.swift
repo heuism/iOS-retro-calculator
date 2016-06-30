@@ -16,22 +16,24 @@ class ViewController: UIViewController {
         case Multiply = "*"
         case Subtract = "-"
         case Add = "+"
+        case Equal = "="
         case Empty = "Empty"
     }
     
     var currentOperation: Operation = Operation.Empty
     
+   
     @IBOutlet weak var displayLbl: UILabel!
     
     var btnSound: AVAudioPlayer!
     
     var runningNumber: String = ""
     
-    var leftValueStr = ""
+    var leftValueStr: String = ""
     
-    var rightValueStr = ""
+    var rightValueStr: String = ""
     
-    var result = ""
+    var result: String = ""
     
     @IBAction func onDividePressed(sender: AnyObject) {
         processOperation(Operation.Divide)
@@ -50,7 +52,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onEqualPressed(sender: AnyObject) {
-        processOperation(currentOperation)
+        processOperation(Operation.Equal)
+    }
+    
+    @IBAction func onClearPressed(sender: AnyObject) {
+        initData()
+        currentOperation = Operation.Empty
+        updateDisplay()
     }
     
     func processOperation(op: Operation) {
@@ -73,7 +81,15 @@ class ViewController: UIViewController {
                 else if currentOperation == Operation.Add{
                     result = "\(Double(leftValueStr)! + Double(rightValueStr)!)"
                 }
+                else{
+                    result = runningNumber
+                }
                 
+                leftValueStr = result
+                displayLbl.text = result
+            }
+            else{
+                result = leftValueStr
                 leftValueStr = result
                 displayLbl.text = result
             }
@@ -90,6 +106,10 @@ class ViewController: UIViewController {
     
     @IBAction func numberPressed(btn: UIButton!){
         playSound()
+        if(currentOperation == Operation.Equal){
+            initData()
+            currentOperation = Operation.Empty
+        }
         runningNumber += "\(btn.tag)"
         result = runningNumber
         //displayLbl.text = runningNumber
@@ -107,6 +127,14 @@ class ViewController: UIViewController {
         btnSound.play()
     }
     
+    func initData() {
+        runningNumber = ""
+        leftValueStr = ""
+        rightValueStr = ""
+        result = "0"
+        currentOperation = Operation.Empty
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -121,7 +149,8 @@ class ViewController: UIViewController {
             print(err.debugDescription)
         }
         
-        result = "0"
+        initData()
+        
         updateDisplay()
     }
 }

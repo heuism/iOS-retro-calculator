@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         
         if currentOperation != Operation.Empty {
             //Run some math
-            if(runningNumber != ""){
+            if runningNumber != ""{
                 rightValueStr = runningNumber
                 runningNumber = ""
                 if currentOperation == Operation.Divide {
@@ -96,6 +96,9 @@ class ViewController: UIViewController {
             currentOperation = op
         }
         else{
+            if runningNumber == "" {
+                runningNumber = "\(0)"
+            }
             //This is the first time the operator is pressed
             leftValueStr = runningNumber
             runningNumber = ""
